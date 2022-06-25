@@ -31,6 +31,223 @@ button {
     font-size: 14px;
 }
 
+<<<<<<< Updated upstream
 .header_right {
+=======
+.login-register-container {
+    height: 560px;
+    min-height: 200px;
+    width: 400px;
+    max-width: calc(100% - 32px);
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    animation: modalFadeIn ease 0.5s;
+}
+
+.login-register-container .heading {
+    display: flex;
+    height: 48px;
+    font-size: 16px;
+}
+
+.login-register-container .heading div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    color: #abb4b5;
+    background: #d2d8d8;
+    cursor: pointer;
+}
+
+.login-register-container .heading div:first-child.active {
+    color: #abb4b5;
+    background: #d2d8d8;
+    cursor: pointer;
+}
+
+.login-register-container .heading div:first-child,
+.login-register-container .heading div.active {
+    color: #000;
+    background: #fff;
+    cursor: pointer;
+}
+
+.login-register-container .heading div:not(.active):hover {
+    opacity: 0.7;
+}
+
+.login-container,
+.register-container {
+    align-items: center;
+    padding: 16px 52px;
+    font-size: 20px;
+    height: 90%;
+    /* transition: all 5s; */
+}
+
+.login-register-container .login-container.active {
+    display: none;
+}
+
+.login-register-container .register-container.active {
+    display: block;
+    width: 100%;
+}
+
+.form-content-input {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    position: relative;
+}
+
+.form-content-input .icon {
+    display: inline-block;
+    width: 20px;
+    font-size: 16px;
+}
+
+.form-input {
+    padding: 12px;
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.form-content-input .form-label {
+    position: absolute;
+    top: 10%;
+    left: 32px;
+    opacity: 0.3;
+    font-size: 22px;
+    transition: 0.5s;
+}
+
+#remember-me {
+    margin-right: 12px;
+}
+
+.form-content-input .form-label:not(.text-remember) {
+    cursor: text;
+}
+
+.form-content-input .form-input:focus ~ .form-label,
+.form-content-input .form-input:valid + .form-label {
+    top: -12px;
+    left: 0;
+    font-size: 18px;
+    opacity: 1;
+    font-weight: 500;
+}
+
+.form-btn {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: #fff;
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    z-index: 111;
+    cursor: pointer;
+}
+
+.form-group.btn {
+    position: relative;
+    height: 44px;
+    overflow: hidden;
+    border-radius: 999px !important;
+    width: 100%;
+}
+
+.form-group.btn .inner {
+    position: absolute;
+    height: 100%;
+    width: 300%;
+    left: -100%;
+    top: 0;
+    z-index: 1;
+    transition: all 0.4s;
+    background: -webkit-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
+}
+
+.form-group.btn:hover .inner {
+    left: 0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center hr {
+    flex-grow: 1;
+}
+
+.icon-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 64px;
+    font-size: 36px;
+    width: 100%;
+    padding: 0 64px;
+}
+
+.icon-group > i {
+    font-size: 36px;
+}
+
+.icon:hover,
+.forgot-password-content:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.forgot-password-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forgot-password {
+    display: inline-block;
+    font-size: 1.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: #000;
+}
+
+.test-container {
+    height: 100px;
+    width: 100px;
+    background: #fc00ff;
+}
+
+.icon-close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 999px;
+    z-index: -1;
+    top: 12px;
+    right: 32vw;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    animation: modalFadeIn ease 0.5s;
+}
+>>>>>>> Stashed changes
 
 }
