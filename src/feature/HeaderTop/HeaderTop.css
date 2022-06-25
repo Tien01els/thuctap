@@ -31,9 +31,6 @@ button {
     font-size: 14px;
 }
 
-<<<<<<< Updated upstream
-.header_right {
-=======
 .login-register-container {
     height: 560px;
     min-height: 200px;
@@ -247,7 +244,4 @@ button {
     height: 40px;
     width: 40px;
     animation: modalFadeIn ease 0.5s;
-}
->>>>>>> Stashed changes
-
 }
