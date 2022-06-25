@@ -240,7 +240,7 @@ a {
 .login-register-container .heading div.active {
     color: #000;
     background: #fff;
-    cursor: auto;
+    cursor: pointer;
 }
 
 .login-register-container .heading div:not(.active):hover {
