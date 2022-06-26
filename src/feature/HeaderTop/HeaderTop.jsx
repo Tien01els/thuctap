@@ -43,7 +43,7 @@ function HeaderTop() {
                     </button>
                 </form>
                 <button className="btn-modal" onClick={handleToggleModal}>
-                    Đăng nhập
+                    Đăng nhập/ Đăng ký
                     <i className="icon ri-user-3-fill"></i>
                 </button>
             </div>
@@ -52,10 +52,10 @@ function HeaderTop() {
                 <div className="login-register-container">
                     <div className="heading">
                         <div className={"login " + toggleActive} onClick={handleToggleActive}>
-                            <h1>Login</h1>
+                            <h1>Đăng nhập</h1>
                         </div>
                         <div className={"register " + toggleActive} onClick={handleToggleActive}>
-                            <h1>Register</h1>
+                            <h1>Đăng ký</h1>
                         </div>
                     </div>
                     <div className={"login-container " + toggleActive}>
@@ -65,7 +65,7 @@ function HeaderTop() {
                                     <i className="icon ri-user-3-line"></i>
                                     <input type="text" id="username-login" className="form-input" required />
                                     <label htmlFor="username-login" className="form-label">
-                                        Username
+                                        Tên người dùng
                                     </label>
                                     <br />
                                 </div>
@@ -76,7 +76,7 @@ function HeaderTop() {
                                     <i className="icon ri-lock-2-line"></i>
                                     <input type="password" id="password-login" className="form-input" required />
                                     <label htmlFor="password-login" className="form-label">
-                                        Password
+                                        Mật khẩu
                                     </label>
                                     <br />
                                 </div>
@@ -85,17 +85,17 @@ function HeaderTop() {
                             <div className="form-group mt-32">
                                 <input type="checkbox" name="remember-me" id="remember-me" className="form-checkbox" />
                                 <label htmlFor="remember-me" className="form-label text-remember">
-                                    Remember Me
+                                    Nhớ mật khẩu
                                 </label>
                             </div>
                             <div className="form-group btn btn-login mt-32">
                                 <div className="inner"></div>
-                                <input type="submit" value="LOGIN" className="form-btn" />
+                                <input type="submit" value="XÁC NHẬN" className="form-btn" />
                             </div>
                         </form>
                         <div className="center mt-32">
                             <hr />
-                            <span> Or Sign In Using </span>
+                            <span> Đăng nhập với </span>
                             <hr />
                         </div>
                         <div className="icon-group mt-16">
@@ -103,7 +103,7 @@ function HeaderTop() {
                             <i className="icon ri-facebook-circle-fill"></i>
                             <i className="icon ri-apple-fill"></i>
                         </div>
-                        <div className="forgot-password-content">Forgot password?</div>
+                        <div className="forgot-password-content">Quên mật khẩu?</div>
                     </div>
                     <div className={"register-container " + toggleActive}>
                         <form action="" className="form-register mt-24">
@@ -112,7 +112,7 @@ function HeaderTop() {
                                     <i className="icon ri-user-3-line"></i>
                                     <input type="text" id="username-register" className="form-input" required />
                                     <label htmlFor="username-register" className="form-label">
-                                        Username
+                                        Tên người dùng
                                     </label>
                                     <br />
                                 </div>
@@ -134,7 +134,7 @@ function HeaderTop() {
                                     <i className="icon ri-lock-2-line"></i>
                                     <input type="password" id="password-register" className="form-input" required />
                                     <label htmlFor="password-register" className="form-label">
-                                        Password
+                                        Mật khẩu
                                     </label>
                                     <br />
                                 </div>
@@ -145,7 +145,7 @@ function HeaderTop() {
                                     <i className="icon ri-rotate-lock-line"></i>
                                     <input type="password" id="confirm-password" className="form-input" required />
                                     <label htmlFor="confirm-password" className="form-label">
-                                        Confirm password
+                                        Nhập lại mật khẩu
                                     </label>
                                     <br />
                                 </div>
@@ -153,12 +153,12 @@ function HeaderTop() {
                             </div>
                             <div className="form-group btn btn-register mt-40">
                                 <div className="inner"></div>
-                                <input type="submit" value="REGISTER" className="form-btn" />
+                                <input type="submit" value="XÁC NHẬN" className="form-btn" />
                             </div>
                         </form>
                         <div className="center mt-32">
                             <hr />
-                            <span> Or Sign Up Using </span>
+                            <span> Đăng ký với </span>
                             <hr />
                         </div>
                         <div className="icon-group mt-16">

@@ -2,7 +2,7 @@
     max-width: 50%;
 }
 
-.ArticleList .ArticleItem {
+.ArticleList a:not(:last-child) .ArticleItem {
     border-bottom: 1px solid #ccc;
     padding-bottom: 20px;
     margin-right: 20px;

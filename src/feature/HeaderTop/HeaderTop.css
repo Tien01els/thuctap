@@ -85,6 +85,7 @@ a {
 .form-search {
     display: flex;
     position: relative;
+    border-left: 1px solid #ccc;
 }
 
 .input-search {
@@ -94,7 +95,7 @@ a {
     padding-right: 32px;
     padding-left: 16px;
     margin-right: 16px;
-    margin-left: 16px;
+    margin-left: 12px;
     font-size: 16px;
 }
 

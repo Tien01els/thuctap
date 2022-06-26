@@ -5,7 +5,7 @@
 }
 
 .article-highlight-main {
-    width: 500px;
+    max-width: 530px;
     min-width: 400px;
 }
 
@@ -17,6 +17,9 @@
     margin-top: 8px;
 }
 
+.article-highlight-main .title-article-item {
+    font-weight: 770;
+}
 
 .article-highlight-sub {
     width: 280px;
@@ -24,6 +27,15 @@
     margin-left: 20px;
 }
 
+.article-highlight-sub a:first-child .ArticleItem {
+    padding-bottom: 12px;
+    border-bottom: 1px solid #ccc;
+}
+
 .article-highlight-sub p {
     font-size: 16px !important;
+}
+
+.article-highlight-sub .title-article-item {
+    font-weight: 700;
 }
