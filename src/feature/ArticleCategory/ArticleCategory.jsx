@@ -98,6 +98,24 @@ function ArticleCategory() {
                     </div>
                 </div>
             </div>
+
+            <div className="article-category">
+                <div className="tittle-category">
+                    <h3>Kinh doanh</h3>
+                    <span>Quốc tế</span>
+                    <span>Chứng khoán</span>
+                    <span>Bất động sản</span>
+                    <span>Bảo hiểm</span>
+                </div>
+                <div className="content-category">
+                    <ArticleItem image={articles[0].image} title={articles[0].title} description={articles[0].description} />
+                    <div className="content-category-list">
+                        <ArticleItem image={articles[0].image} title={articles[0].title} />
+                        <ArticleItem image={articles[0].image} title={articles[0].title} />
+                        <ArticleItem image={articles[0].image} title={articles[0].title} />
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }

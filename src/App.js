@@ -3,7 +3,7 @@ import HeaderTop from "./feature/HeaderTop/HeaderTop";
 import Nav from "./feature/Nav/Nav";
 import Highlight from "./feature/Highlight/Highlight";
 import Container from "./feature/Container/Container";
-
+import Footer from "./feature/Footer/Footer";
 
 function App() {
     return (
@@ -12,6 +12,7 @@ function App() {
             <Nav />
             <Highlight />
             <Container />
+            <Footer />
         </div>
     );
 }
