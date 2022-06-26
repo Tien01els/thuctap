@@ -1,10 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Nav.css";
+import { useState } from "react";
 
 const Nav = () => {
+    const [scrollNav, setScrollNav] = useState(false);
+    const handleScrollNav = () => {
+        if (window.scrollY > 78) {
+            setScrollNav(true);
+        } else {
+            setScrollNav(false);
+        }
+    };
+    window.addEventListener("scroll", handleScrollNav);
     return (
-        <div className="Nav">
+        <div className={scrollNav ? "Nav active" : "Nav"}>
             <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet"></link>
             <nav className="main-nav">
                 <ul className="parent">

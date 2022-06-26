@@ -27,7 +27,7 @@ function HeaderTop() {
             <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet"></link>
             <div className="header-left">
                 <a href="/">
-                    <img src="https://s1.vnecdn.net/vnexpress/restruct/i/v617/v2_2019/pc/graphics/logo.svg" alt="vnexpress" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Article_company_logo_2017.svg" alt="article" />
                 </a>
             </div>
             <div className="header-right">
