@@ -41,7 +41,8 @@
     width: 100%;
 }
 
-.content-category > .ArticleItem {
+.content-category > .ArticleItem,
+.content-category a {
     width: 440px;
     margin-right: 16px;
 }
