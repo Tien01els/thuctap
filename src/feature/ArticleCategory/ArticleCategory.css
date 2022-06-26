@@ -3,7 +3,14 @@
     padding-left: 20px;
     border-left: 1px solid #ccc;
 }
+.article-category {
+    border-bottom: 4px solid #ccc;
+    padding-bottom: 20px;
+}
 
+.article-category:not(:first-child) {
+    margin-top: 12px;
+}
 .tittle-category {
     display: flex;
     align-items: center;
@@ -27,7 +34,7 @@
 }
 
 .content-category > .ArticleItem {
-    width: 400px;
+    width: 440px;
     margin-right: 16px;
 }
 
@@ -46,4 +53,8 @@
 .content-category-list .article-item-container img {
     width: 120px;
     margin-right: 4px;
+}
+
+.content-category-list .article-item-container .title-article-item {
+    font-weight: 620;
 }
