@@ -43,7 +43,8 @@
 
 .content-category > .ArticleItem,
 .content-category a {
-    width: 440px;
+    max-width: 240px;
+    min-width: 240px;
     margin-right: 16px;
 }
 
@@ -60,10 +61,16 @@
 }
 
 .content-category-list .article-item-container img {
-    width: 120px;
-    margin-right: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.content-category-list .article-item-container .content-article-item {
+    margin-left: 16px;
 }
 
 .content-category-list .article-item-container .title-article-item {
-    font-weight: 620;
+    font-weight: 600;
 }

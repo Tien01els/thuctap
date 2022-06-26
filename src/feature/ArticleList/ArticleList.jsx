@@ -14,22 +14,22 @@ export default class ArticleList extends Component {
 
     async componentDidMount() {
         try {
-          const json = await fetchRSS(CATEGORY.HOME);
-          this.setState({ items: json.items });
+            const json = await fetchRSS(CATEGORY.HOME);
+            this.setState({ items: json.items });
         } catch (error) {
             console.log(error);
         }
     }
 
     render() {
-      return (
-        <div className="ArticleList">
-          {this.state.items.map(item => (
-            <a href={item.link}>
-              {item.thumbnail && <ArticleItem key={item.guid} image={item.thumbnail} title={item.title} description={item.description.split("</a>")[1]} />}
-            </a>
-          ))}
-        </div>
-      );
+        return (
+            <div className="ArticleList">
+                {this.state.items.map((item) => (
+                    <a href={item.link} key={item.guid}>
+                        {item.thumbnail && <ArticleItem key={item.guid} image={item.thumbnail} title={item.title} description={item.description.split("</a>")[1]} />}
+                    </a>
+                ))}
+            </div>
+        );
     }
 }
