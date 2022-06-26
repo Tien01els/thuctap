@@ -1,0 +1,25 @@
+.ArticleItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.article-item-container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.article-item-container {
+    text-align: left;
+}
+
+.img-article-item {
+    width: 100%;
+}
+
+.title-article-item {
+    font-weight: 800;
+    font-size: 20px;
+}

@@ -23,7 +23,7 @@ function HeaderTop() {
     };
 
     return (
-        <div className="header-container">
+        <div className="HeaderTop">
             <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet"></link>
             <div className="header-left">
                 <a href="/">
@@ -42,7 +42,7 @@ function HeaderTop() {
                     </button>
                 </form>
                 <button className="btn-modal" onClick={handleToggleModal}>
-                    <i className="ri-user-3-fill"></i>
+                    <i className="icon ri-user-3-fill"></i>
                     Đăng nhập
                 </button>
             </div>
@@ -166,9 +166,9 @@ function HeaderTop() {
                             <i className="icon ri-apple-fill"></i>
                         </div>
                     </div>
-                </div>
-                <div className="icon-close" onClick={handleToggleModal}>
-                    <i class="ri-close-line"></i>
+                    <div className="icon-close" onClick={handleToggleModal}>
+                        <i className="ri-close-line"></i>
+                    </div>
                 </div>
             </div>
         </div>
