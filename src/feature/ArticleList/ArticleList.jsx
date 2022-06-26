@@ -1,5 +1,5 @@
 import "./ArticleList.css";
-import React, { Component } from 'react'
+import React, { Component } from "react";
 import ArticleItem from "../ArticleItem/ArticleItem.jsx";
 import fetchRSS from "../fetchData/fetchData";
 import { CATEGORY } from "../constants";
@@ -8,16 +8,16 @@ export default class ArticleList extends Component {
     constructor() {
         super();
         this.state = {
-          items: []
+            items: [],
         };
-      }
+    }
 
     async componentDidMount() {
         try {
           const json = await fetchRSS(CATEGORY.HOME);
           this.setState({ items: json.items });
         } catch (error) {
-          console.log(error);
+            console.log(error);
         }
     }
 
