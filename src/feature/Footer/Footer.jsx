@@ -76,6 +76,29 @@ function Footer() {
                     </div>
                 </div>
             </div>
+            <div className="footer-social">
+                <span>Báo điện tử</span>
+                <div className="social-group">
+                    <span>Theo dõi trên</span>
+                    <i class="ri-facebook-circle-line"></i>
+                    <i class="ri-twitter-fill"></i>
+                    <i class="ri-youtube-line"></i>
+                </div>
+            </div>
+            <div className="footer-info">
+                <div className="footer-info-right">
+                    <p>Báo tiếng Việt nhiều người xem nhất</p>
+                    <p>Thuộc Bộ Khoa học Công nghệ</p>
+                </div>
+                <div className="footer-info-left">
+                    <p>
+                        <b>Người thực hiện:</b> Đặng Nhật Tiến
+                    </p>
+                    <p>
+                        <b>Điện thoại:</b> 0914002708
+                    </p>
+                </div>
+            </div>
         </div>
     );
 }
