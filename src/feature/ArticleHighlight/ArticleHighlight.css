@@ -1,0 +1,20 @@
+.ArticleHighlight {
+    display: flex;
+    width: 800px;
+    min-width: 600px;
+}
+
+.article-highlight-main {
+    width: 500px;
+    min-width: 400px;
+}
+
+.article-highlight-sub {
+    width: 250px;
+    min-width: 100px;
+    margin-left: 20px;
+}
+
+.article-highlight-sub p {
+    font-size: 16px !important;
+}

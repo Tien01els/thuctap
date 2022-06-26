@@ -23,7 +23,6 @@ button {
 i {
     color: #ccc;
     font-size: 16px;
-    padding-right: 4px;
 }
 
 a {
@@ -31,70 +30,18 @@ a {
     text-decoration: none;
 }
 
-.text-center {
-    text-align: center !important;
-}
-
-.mt-8 {
-    margin-top: 8px !important;
-}
-
-.mt-16 {
-    margin-top: 16px !important;
-}
-
-.mt-24 {
-    margin-top: 24px !important;
-}
-
-.mt-32 {
-    margin-top: 32px !important;
-}
-
-.mt-40 {
-    margin-top: 40px !important;
-}
-
-.pull-right {
-    float: right;
-}
-
-.row {
-    margin-left: -8px;
-    margin-right: -8px;
-}
-
-.row::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
-.col {
-    float: left;
-    padding: 0 8px;
-}
-
-.col-full {
-    width: 100%;
-}
-
-.col-half {
-    width: 50%;
-}
-
-.col-third {
-    width: 33.33333%;
-}
-
 /* #b52759 */
 /**/
 
-.header-container {
+.HeaderTop {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
+    padding: 20px 120px;
+}
+
+.HeaderTop i {
+    padding-right: 4px;
 }
 
 .btn-header {
@@ -104,6 +51,10 @@ a {
     margin-right: 12px;
     font-size: 16px;
     color: rgb(70, 70, 70);
+}
+
+.header-container i {
+    padding-right: 4px;
 }
 
 .btn-header:hover {
@@ -175,6 +126,7 @@ a {
     align-items: center;
     justify-content: center;
     display: none;
+    z-index: 999;
 }
 
 .open {
@@ -209,7 +161,6 @@ a {
     max-width: calc(100% - 32px);
     background: #fff;
     border-radius: 12px;
-    overflow: hidden;
     position: relative;
     animation: modalFadeIn ease 0.5s;
 }
@@ -228,15 +179,34 @@ a {
     color: #abb4b5;
     background: #d2d8d8;
     cursor: pointer;
+    user-select: none;
+}
+
+.login-register-container .heading div:last-child {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    color: #abb4b5;
+    background: #d2d8d8;
+    cursor: pointer;
+    border-top-right-radius: 12px;
 }
 
 .login-register-container .heading div:first-child.active {
     color: #abb4b5;
     background: #d2d8d8;
     cursor: pointer;
+    border-top-left-radius: 12px;
 }
 
-.login-register-container .heading div:first-child,
+.login-register-container .heading div:first-child {
+    border-top-left-radius: 12px;
+    color: #000;
+    background: #fff;
+    cursor: pointer;
+}
+
 .login-register-container .heading div.active {
     color: #000;
     background: #fff;
@@ -256,6 +226,7 @@ a {
     /* transition: all 5s; */
 }
 
+.login-register-container .register-container,
 .login-register-container .login-container.active {
     display: none;
 }
@@ -343,7 +314,8 @@ a {
     top: 0;
     z-index: 1;
     transition: all 0.4s;
-    background: -webkit-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
+    background: #b52759;
+    /* -webkit-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff); */
 }
 
 .form-group.btn:hover .inner {
@@ -408,17 +380,74 @@ a {
     position: absolute;
     background-color: #fff;
     border-radius: 999px;
-    z-index: -1;
-    top: 12px;
-    right: 32vw;
+    top: -20px;
+    right: -44px;
     cursor: pointer;
     height: 40px;
     width: 40px;
     animation: modalFadeIn ease 0.5s;
+    user-select: none;
 }
 
 .icon-close > i {
     font-size: 40px;
     height: 40px;
     width: 40px;
+    z-index: 1000;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.mt-8 {
+    margin-top: 8px !important;
+}
+
+.mt-16 {
+    margin-top: 16px !important;
+}
+
+.mt-24 {
+    margin-top: 24px !important;
+}
+
+.mt-32 {
+    margin-top: 32px !important;
+}
+
+.mt-40 {
+    margin-top: 40px !important;
+}
+
+.pull-right {
+    float: right;
+}
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col {
+    float: left;
+    padding: 0 8px;
+}
+
+.col-full {
+    width: 100%;
+}
+
+.col-half {
+    width: 50%;
+}
+
+.col-third {
+    width: 33.33333%;
 }

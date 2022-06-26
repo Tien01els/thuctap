@@ -1,0 +1,26 @@
+.Highlight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.hightlight-special {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hightlight-special img {
+    width: 160px;
+    margin-right: 16px;
+}
+
+.hightlight-special .article-item-container {
+    display: flex;
+    width: 320px;
+}
+
+.hightlight-special .article-item-container p {
+    font-size: 16px;
+}
