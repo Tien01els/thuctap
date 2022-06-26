@@ -16,9 +16,15 @@
 
 .img-article-item {
     width: 100%;
+    cursor: pointer;
 }
 
 .title-article-item {
     font-weight: 800;
     font-size: 20px;
+    cursor: pointer;
+}
+
+.description-article-item {
+    cursor: pointer;
 }
