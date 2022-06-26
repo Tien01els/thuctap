@@ -4,7 +4,7 @@
     border-left: 1px solid #ccc;
 }
 
-.article-category {
+.article-category:not(:last-child) {
     border-bottom: 4px solid #ccc;
     padding-bottom: 20px;
 }
@@ -55,16 +55,20 @@
 .content-category-list {
     flex-grow: 1;
 }
+
+.content-category-list a:not(:last-child) .ArticleItem {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: -4px;
+}
+
 .content-category-list .article-item-container {
     display: flex;
     margin-bottom: 8px;
 }
 
 .content-category-list .article-item-container img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    width: 160px;
 }
 
 .content-category-list .article-item-container .content-article-item {

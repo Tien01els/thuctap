@@ -1,5 +1,8 @@
 .Footer {
-    margin-top: 64px;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .footer-category {
@@ -9,6 +12,7 @@
     margin-right: 32px;
     padding-bottom: 16px;
     border-bottom: 1px solid #ccc;
+    align-self: center;
 }
 
 .footer-category span,

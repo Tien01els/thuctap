@@ -80,9 +80,9 @@ function Footer() {
                 <span>Báo điện tử</span>
                 <div className="social-group">
                     <span>Theo dõi trên</span>
-                    <i class="ri-facebook-circle-line"></i>
-                    <i class="ri-twitter-fill"></i>
-                    <i class="ri-youtube-line"></i>
+                    <i className="ri-facebook-circle-line"></i>
+                    <i className="ri-twitter-fill"></i>
+                    <i className="ri-youtube-line"></i>
                 </div>
             </div>
             <div className="footer-info">
