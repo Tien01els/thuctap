@@ -9,8 +9,17 @@
     min-width: 400px;
 }
 
+.article-highlight-main .content-article-item {
+    margin-top: 16px;
+}
+
+.article-highlight-main p {
+    margin-top: 8px;
+}
+
+
 .article-highlight-sub {
-    width: 250px;
+    width: 280px;
     min-width: 100px;
     margin-left: 20px;
 }
