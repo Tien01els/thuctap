@@ -32,7 +32,8 @@ function HeaderTop() {
             </div>
             <div className="header-right">
                 <button className="btn-header">
-                    <i className="ri-time-line"></i> Mới nhất
+                    Mới nhất
+                    <i className="ri-time-line"></i>
                 </button>
                 <button className="btn-header">International</button>
                 <form action="GET" className="form-search">
@@ -42,8 +43,8 @@ function HeaderTop() {
                     </button>
                 </form>
                 <button className="btn-modal" onClick={handleToggleModal}>
-                    <i className="icon ri-user-3-fill"></i>
                     Đăng nhập
+                    <i className="icon ri-user-3-fill"></i>
                 </button>
             </div>
 

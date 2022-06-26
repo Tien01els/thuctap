@@ -40,8 +40,8 @@ a {
     padding: 20px 120px;
 }
 
-.HeaderTop i {
-    padding-right: 4px;
+.header-right i {
+    padding-left: 4px;
 }
 
 .btn-header {
@@ -103,6 +103,10 @@ a {
     bottom: 4px;
     right: 20px;
     font-size: 16px;
+}
+
+.btn-modal {
+    margin-left: 16px;
 }
 
 .btn-modal,

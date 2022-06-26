@@ -1,0 +1,23 @@
+.ArticleList {
+    max-width: 50%;
+}
+
+.ArticleList .ArticleItem {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-right: 20px;
+}
+
+.ArticleList .article-item-container {
+    display: flex;
+}
+
+.ArticleList .article-item-container img {
+    width: 280px;
+    margin-right: 20px;
+}
+
+.ArticleList .article-item-container .title-article-item {
+    font-size: 20px;
+    font-weight: 650;
+}
